@@ -56,7 +56,6 @@ const HomePageTemplate = () => {
                     spacing={5}
                 >
                     {usersArr.map((u) => {
-                        console.log(u)
                         return (
                             <Grid key={u.login.uuid} item xl={6} lg={6} md={6} sm={12} xs={12}>
                                 <UserCard

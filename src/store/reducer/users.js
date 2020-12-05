@@ -15,7 +15,6 @@ const reducer = (state = initialState, action) => {
             }
         };
         case actionTypes.FETCH_USERS_SUCCESS: {
-            console.log(state);
             return {
                 ...state,
                 list: [...state.list, ...action.payload.results],
